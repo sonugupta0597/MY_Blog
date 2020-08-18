@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.blog-title {
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.blog-header {
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.img1 {
+    width: 49%;
+    height: 400px;
+}
+
+.img2 {
+    height: 190px;
+}
+
+.main {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.main-box-2 {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img {
+    border-radius: 4px;
+}
+
+.latest {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.latest-heading {
+    padding: 20px;
+    height: 50px;
+}
+
+.cards-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 30%;
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+}
+
+.card-body {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+}
+
+.card-footer-first {
+    font-weight: 800;
+    margin-right: 10px;
+}
+
+.latest-articles {
+    padding: 20px;
+}
+
+.latest-articles-heading {
+    height: 50px;
+    padding-left: 20px;
+}
+
+.latest-articles-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-articles-box-left {
+    width: 65%;
+}
+
+.latest-articles-box-right {
+    width: 30%;
+    background-color: lightslategray;
+}
+
+.latest-articles-box-card {
+    display: flex;
+    margin-top: 20px;
+}
+
+.latest-articles-box-card-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.latest-articles-box-card-left {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.latest-articles-box-left {
+    padding: 20px;
+}
+
+.latest-articles-img {
+    width: 100%;
+    margin-top: 50px;
+    height: 400px;
+}
